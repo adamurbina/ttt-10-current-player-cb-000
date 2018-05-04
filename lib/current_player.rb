@@ -1,5 +1,5 @@
 def current_player(board)
-    board.count("X") % 2 == 1 ? "O" : "X"
+    board.count("X") == board.count("O") ? "X" : "O"
 end
 
 def turn_count(board)
