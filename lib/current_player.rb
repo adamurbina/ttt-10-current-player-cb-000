@@ -3,5 +3,5 @@ def current_player(board)
 end
 
 def turn_count(board)
-    
+    board.count("X") + board.count("O") + 1
 end
